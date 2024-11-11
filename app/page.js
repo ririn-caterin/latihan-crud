@@ -186,7 +186,7 @@ const Page = () => {
           TAMBAH PENGGUNA
         </button>
       </form>
-      <h2 className="font-bold text-xl mb-2">DATA PENGGUNA</h2>
+      <h2 className="font-bold text-xl mb-2">TAMBAHKAN DATA PENGGUNA</h2>
       {daftar ? (
         daftar.map((pengguna) => (
           <div key={pengguna.id} className="mb-4">
